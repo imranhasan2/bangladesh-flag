@@ -1,5 +1,38 @@
 *{
-    margin: 0%;
-    padding: 0%;
-    background-color: indianred;
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    height: 100vh;
+    background-color: bisque;
+}
+
+.flag-container{
+    height: 250px;
+    width: 500px;
+    background-color:green;
+    position:relative ;
+    transform: translate(-50%,-40%);
+    left: 50%;
+    top: 50%;
+}
+.flag-circle{
+    height: 130px;
+    width: 130px;
+    background-color: red;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 100%;
+}
+.flag-handle{
+    height: 170px;
+    width: 40px;
+    background-color: black;
+    position: relative;
+    border-top-right-radius: 30%;
+    left: 0%;
+    top: 90%;
+
 }
