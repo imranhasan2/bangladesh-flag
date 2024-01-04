@@ -28,11 +28,21 @@
 }
 .flag-handle{
     height: 170px;
-    width: 40px;
+    width: 30px;
     background-color: black;
     position: relative;
     border-top-right-radius: 30%;
     left: 0%;
-    top: 90%;
+    top: 90%
 
+
+}
+.flag-footer{
+    height: 40px;
+    width: 80px;
+    background-color: black;
+    position: relative;
+    right: 50%;
+    top: 90%;
+    transform: translate(-50%,);
 }
